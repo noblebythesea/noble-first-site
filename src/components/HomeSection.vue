@@ -14,7 +14,7 @@
       <img
         v-for="i in 4"
         :key="i"
-        :src="`/src/assets/images/food${i}.jpg`"
+        :src="`/images/food${i}.jpg`"
         class="w-full h-128 object-cover"
       />
       <div class="absolute flex justify-center pt-100">

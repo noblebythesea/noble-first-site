@@ -3,11 +3,11 @@
 <template>
   <div class="grid grid-cols-2">
     <img
-      src="../assets/images/food1.jpg"
+      src="/images/food1.jpg"
       class="w-full h-100 object-cover border-solid border-4 border-collapse border-bordeaux"
     />
     <img
-      src="../assets/images/food2.jpg"
+      src="/images/food2.jpg"
       class="w-full h-100 object-cover border-solid border-4 border-collapse border-bordeaux"
     />
   </div>
