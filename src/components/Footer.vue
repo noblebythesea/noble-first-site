@@ -13,13 +13,13 @@
         <p>Hours: 10:00am to 10:00pm Mon–Sun</p>
         <p>Phone: (506) 408-0025</p>
         <div class="flex space-x-4 mt-4">
-          <a href="#"
+          <a href="https://www.instagram.com/noblebythesea"
             ><img
               src="/images/instagram.svg"
               alt="Instagram"
               class="w-10"
           /></a>
-          <a href="#"
+          <a href="https://www.facebook.com/share/1C16M5Vych/?mibextid=wwXIfr"
             ><img
               src="/images/facebook.svg"
               alt="Facebook"
