@@ -13,7 +13,7 @@ const pdfSrc = computed(() => {
     <h1 class="text-2xl font-homemadeapple mb-4 text-center">Our Menus</h1>
 
     <div class="mb-6 text-center">
-      <label for="menuSelect" class="mr-2 font-medium">Choose a menu:</label>
+      <label for="menuSelect" class="mr-2 font-inter">Choose a menu:</label>
       <select
         id="menuSelect"
         v-model="selectedMenu"
@@ -31,6 +31,10 @@ const pdfSrc = computed(() => {
         frameborder="0"
         title="Menu PDF"
       ></iframe>
+    </div>
+    <div class="font-inter text-noblenavy py-2">
+      ** Due to Noble's mission to source our ingredients fresh from local
+      artisans and farmers, our menu is subject to change every day.
     </div>
   </section>
 </template>
