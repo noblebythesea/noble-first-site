@@ -38,14 +38,14 @@
         NOBLE Menu
       </h1>
       <p class="font-inter text-driftwood py-5 px-15">
-        At NOBLE, we believe that the freshest flavors come straight from our
-        community. That’s why we proudly partner with local farmers, growers,
-        and artisans to bring you ingredients at their seasonal peak. Our menu
-        is a vibrant reflection of what’s fresh and abundant, changing regularly
-        to celebrate the rhythms of the harvest. Whether it’s heirloom tomatoes
-        in the summer or root vegetables in the fall, every dish is crafted to
-        highlight nature’s best. Every visit brings something new and delicious
-        to discover.
+        At NOBLE, we believe that the freshest flavors come from our community.
+        That’s why we proudly partner with local farmers, growers, and artisans
+        to bring you ingredients at their seasonal peak. Our menu is a
+        reflection of what is fresh and abundant, changing regularly to honor
+        the pattern of the harvest. Whether it’s heirloom tomatoes in the summer
+        or root vegetables in the fall, each dish is crafted to highlight
+        nature’s best. Every visit brings something new and delicious to
+        discover.
       </p>
     </div>
   </section>

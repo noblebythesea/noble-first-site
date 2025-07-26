@@ -18,11 +18,12 @@
         class="w-full h-128 object-cover"
       />
       <div class="absolute flex justify-center pt-100">
-        <button
+        <router-link
+          to="/menu"
+          tag="button"
           class="bg-white border border-gray-600 px-6 py-2 text-black text-inter rounded hover:bg-bordeaux hover:text-white shadow-lg"
+          >Explore Our Menu</router-link
         >
-          Explore Our Menu
-        </button>
       </div>
     </div>
   </section>
