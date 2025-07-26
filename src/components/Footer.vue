@@ -10,7 +10,6 @@
           class="w-60"
         />
         <p>132 Water Street, St. Andrews, NB</p>
-        <p>Hours: 10:00am to 10:00pm Mon–Sun</p>
         <p>Phone: (506) 408-0025</p>
         <div class="flex space-x-4 mt-4">
           <a href="https://www.instagram.com/noblebythesea"

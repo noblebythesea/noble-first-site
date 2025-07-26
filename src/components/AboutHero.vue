@@ -2,12 +2,12 @@
 
 <template>
   <section>
-    <div class="herosection w-full h-100 bg-[url(/images/hero.jpg)]">
+    <div class="herosection h-100  bg-cover bg-center bg-[url(/images/abouthero.jpeg)]">
       <nav>
         <router-link to="/">
           <img
             class="absolute w-36 h-auto ml-2"
-            src="/images/NobleLogo.png"
+            src="/images/NobleLogoWhite.png"
           />
         </router-link>
         <ul class="hidden md:flex justify-center pt-8 gap-x-4 font-inter">
@@ -46,9 +46,7 @@
         of regional craft beers. Whether you're joining us for a cozy dine-in
         experience, enjoying the fresh air in our beautiful courtyard, or
         picking up a thoughtfully prepared takeout meal, NOBLE brings warmth,
-        flavor, and hospitality to every moment. We also welcome reservations
-        and offer full catering services, making us the perfect choice for your
-        next event or special occasion. With a fully stocked bar and a passion
+        flavor, and hospitality to every moment. With a fully stocked bar and a passion
         for culinary excellence, NOBLE invites you to savor the taste of New
         Brunswick one plate at a time.
       </p>

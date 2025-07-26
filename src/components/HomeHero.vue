@@ -2,12 +2,12 @@
 
 <template>
   <section>
-    <div class="herosection w-full h-100 bg-[url(/images/hero.jpg)]">
+    <div class="herosection bg-cover bg-center h-100 bg-[url(/images/homehero.jpeg)]">
       <nav>
-        <a href="#">
+        <a href="/">
           <img
             class="absolute w-36 h-auto ml-2"
-            src="/images/NobleLogo.png"
+            src="/images/NobleLogoNobleNavy.png"
         /></a>
         <ul class="hidden md:flex justify-center pt-8 gap-x-4 font-inter">
           <li class="nav-link">

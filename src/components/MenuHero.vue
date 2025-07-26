@@ -7,7 +7,7 @@
         <router-link to="/">
           <img
             class="absolute w-36 h-auto ml-2"
-            src="/images/NobleLogo.png"
+            src="/images/NobleLogoWhite.png"
           />
         </router-link>
         <ul class="hidden md:flex justify-center pt-8 gap-x-4 font-inter">
@@ -34,10 +34,10 @@
       </nav>
     </div>
     <div class="textsection bg-bordeaux">
-      <h1 class="text-3xl md:text-6xl font-kingred py-2 px-15 text-driftwood">
+      <h1 class="text-3xl md:text-6xl font-kingred py-3 px-15 text-driftwood">
         NOBLE Menu
       </h1>
-      <p class="font-inter text-driftwood py-5 px-15">
+      <p class="font-inter text-driftwood py-4 px-15">
         At NOBLE, we believe that the freshest flavors come from our community.
         That’s why we proudly partner with local farmers, growers, and artisans
         to bring you ingredients at their seasonal peak. Our menu is a

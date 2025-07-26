@@ -21,7 +21,7 @@
         <router-link
           to="/menu"
           tag="button"
-          class="bg-white border border-gray-600 px-6 py-2 text-black text-inter rounded hover:bg-bordeaux hover:text-white shadow-lg"
+          class="bg-white border border-noblenavy px-6 py-2 text-noblenavy text-inter rounded hover:bg-bordeaux hover:text-white shadow-lg"
           >Explore Our Menu</router-link
         >
       </div>

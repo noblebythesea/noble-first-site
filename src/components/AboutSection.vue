@@ -4,11 +4,11 @@
   <div class="grid grid-cols-2">
     <img
       src="/images/food1.jpg"
-      class="w-full h-100 object-cover border-solid border-4 border-collapse border-bordeaux"
+      class="w-full h-100 object-cover object-center border-solid border-4 border-collapse border-bordeaux"
     />
     <img
       src="/images/food2.jpg"
-      class="w-full h-100 object-cover border-solid border-4 border-collapse border-bordeaux"
+      class="w-full h-100 object-cover object-center border-solid border-4 border-collapse border-bordeaux"
     />
   </div>
 

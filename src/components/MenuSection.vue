@@ -10,14 +10,14 @@ const pdfSrc = computed(() => {
 
 <template>
   <section class="p-6 max-w-4xl mx-auto">
-    <h1 class="text-2xl font-homemadeapple mb-4 text-center">Our Menus</h1>
+    <h1 class="text-3xl font-homemadeapple mb-4 text-center text-noblenavy">Our Menus</h1>
 
     <div class="mb-6 text-center">
-      <label for="menuSelect" class="mr-2 font-inter">Choose a menu:</label>
+      <label for="menuSelect" class="mr-2 font-inter text-noblenavy">Choose a menu:</label>
       <select
         id="menuSelect"
         v-model="selectedMenu"
-        class="border px-3 py-2 rounded text-black"
+        class="border border-noblenavy px-2 py-1 rounded text-noblenavy"
       >
         <option value="NOBLELunchMenu">Lunch</option>
         <option value="NOBLEDinnerMenu">Dinner</option>
