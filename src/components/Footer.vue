@@ -5,7 +5,7 @@
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
         <img
-          src="/src/assets/images/NobleCCWhite.png"
+          src="/images/NobleCCWhite.png"
           alt="Noble Logo"
           class="w-60"
         />
@@ -15,13 +15,13 @@
         <div class="flex space-x-4 mt-4">
           <a href="#"
             ><img
-              src="/src/assets/images/instagram.svg"
+              src="/images/instagram.svg"
               alt="Instagram"
               class="w-10"
           /></a>
           <a href="#"
             ><img
-              src="/src/assets/images/facebook.svg"
+              src="/images/facebook.svg"
               alt="Facebook"
               class="w-10"
           /></a>
