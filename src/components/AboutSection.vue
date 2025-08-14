@@ -18,9 +18,9 @@
     <div class="contact-div px-5">
       <p class="font-homemadeapple text-white text-2xl py-1.5">Contact us!</p>
       <div class="text-inter text-white px-2">
-        <p class="py-1">Phone Number: +1 (506) 408-0025</p>
         <p class="py-1">Email Address: lysa@noblebythesea.com</p>
         <p class="py-1">Civic Address: 132 Water St., Saint Andrews, NB</p>
+        <p>The main level of the historic Windsor House is home to Noble.</p>
       </div>
     </div>
 
