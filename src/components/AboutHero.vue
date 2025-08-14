@@ -50,6 +50,9 @@
         for culinary excellence, NOBLE invites you to savor the taste of New
         Brunswick one plate at a time.
       </p>
+      <p class="font-inter text-driftwood py-2 px-15">
+        To make a reservation at Noble, please reach us by email at lysa@noblebythesea.com or come in person to speak with our knowledgeable staff to personalize your dining experience.
+      </p>
     </div>
   </section>
 </template>

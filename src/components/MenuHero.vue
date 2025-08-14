@@ -2,7 +2,7 @@
 
 <template>
   <section>
-    <div class="herosection w-full h-100 bg-[url(/images/hero.jpg)]">
+    <div class="herosection w-full h-100 bg-cover bg-center bg-[url(/images/menuhero.jpg)]">
       <nav>
         <router-link to="/">
           <img

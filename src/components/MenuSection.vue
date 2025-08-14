@@ -3,8 +3,11 @@ import { ref, computed } from "vue";
 
 const selectedMenu = ref("NOBLELunchMenu");
 
-const pdfSrc = computed(() => {
-  return `/menus/${selectedMenu.value}.pdf`;
+const jpgSrc1 = computed(() => {
+  return `/menus/${selectedMenu.value}P1.jpg`;
+});
+const jpgSrc2 = computed(() => {
+  return `/menus/${selectedMenu.value}P2.jpg`;
 });
 </script>
 
@@ -24,13 +27,17 @@ const pdfSrc = computed(() => {
       </select>
     </div>
 
-    <div class="relative w-full h-[600px] border shadow-md">
-      <iframe
-        :src="pdfSrc"
-        class="w-full h-full"
-        frameborder="0"
-        title="Menu PDF"
-      ></iframe>
+    <div class="relative w-full h-full border border-noblenavy shadow-md">
+      <img
+        :src="jpgSrc1"
+        alt="Noble Menu Page 1"
+        class="border border-noblenavy w-full h-full"
+      />
+      <img
+        :src="jpgSrc2"
+        alt="Noble Menu Page 2"
+        class="border border-noblenavy w-full h-full"
+      />
     </div>
     <div class="font-inter text-noblenavy py-2">
       ** Due to Noble's mission to source our ingredients fresh from local
