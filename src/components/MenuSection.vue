@@ -23,6 +23,7 @@ const jpgSrc2 = computed(() => {
         class="border border-noblenavy px-2 py-1 rounded text-noblenavy"
       >
         <option value="NOBLELunchMenu">Lunch</option>
+        <option value="NOBLEHappyHourMenu">Happy Hour</option>
         <option value="NOBLEDinnerMenu">Dinner</option>
       </select>
     </div>
@@ -34,6 +35,7 @@ const jpgSrc2 = computed(() => {
         class="border border-noblenavy w-full h-full"
       />
       <img
+        v-if="selectedMenu !== 'NOBLEHappyHourMenu'"
         :src="jpgSrc2"
         alt="Noble Menu Page 2"
         class="border border-noblenavy w-full h-full"
