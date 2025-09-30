@@ -28,8 +28,9 @@
       <p class="font-homemadeapple text-white text-2xl py-1.5">Noble Hours</p>
       <div class="text-inter text-white px-2">
         <p class="py-1">Closed on Mondays</p>
-        <p class="py-1">Tuesday to Saturday 12:00pm - 11:00pm</p>
-        <p class="py-1">Sunday 12:00pm - 10:00pm</p>
+        <p class="py-1">Tuesday to Thursday 5:00pm - 11:00pm</p>
+        <p class="py-1">Friday and Saturday 12:00pm - 11:00pm</p>
+        <p class="py-1">Sunday 5:00pm - 10:00pm</p>
       </div>
     </div>
   </div>
