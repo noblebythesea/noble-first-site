@@ -7,8 +7,8 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <div class="md:hidden fixed top-[60px] right-0 w-full z-50">
-    <div class="flex p-4 text-white">
+  <div class="md:hidden top absolute right-0 w-full z-50">
+    <div class="flex p-4 text-noblenavy">
       <button @click="toggleMenu" class="focus:outline-none">
         <svg
           class="w-6 h-6"
@@ -24,7 +24,7 @@ const toggleMenu = () => {
       </button>
     </div>
 
-    <div v-if="menuOpen" class="bg-bordeaux/50 text-white">
+    <div v-if="menuOpen" class="bg-bordeaux/50 text-white text-end w-full">
       <router-link to="/" class="block px-4 py-2 hover:bg-noblenavy"
         >Home</router-link
       >

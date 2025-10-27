@@ -7,9 +7,9 @@ import Footer from "../src/components/Footer.vue";
 <template>
   <Banner
     :announcements="[
-      'Happy hour starts at 3:00pm everyday! Enjoy discounted cocktails and draft beer!',
-      'Check our social media for live music updates!',
+      'Now serving Saturday and Sunday Brunch! Start your weekend right with a grapefruit mimosa &#9728;',
       'Menu offerings can change each day. Come and see if we have your favourite, or try something new!',
+      'Check our social media for live music updates! &#9834;',
     ]"
   />
   <SidebarMenu />

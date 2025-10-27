@@ -2,7 +2,9 @@
 
 <template>
   <section>
-    <div class="herosection bg-cover bg-center h-100 bg-[url(/images/homehero.jpeg)]">
+    <div
+      class="herosection bg-cover bg-center h-100 bg-[url(/images/homehero.jpeg)]"
+    >
       <nav>
         <a href="/">
           <img
@@ -40,7 +42,7 @@
       >
         EAT, DRINK & BE MERRY
       </h1>
-      <p class="font-inter py-7 px-30 text-center">
+      <p class="font-inter py-7 sm:px-5 md:px-30 text-center">
         NOBLE, located in the picturesque town of St. Andrews, New Brunswick,
         Canada, is a distinctive culinary destination offering heritage-inspired
         dining experiences. Catering to both discerning food enthusiasts and

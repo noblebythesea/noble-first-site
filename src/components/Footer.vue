@@ -4,24 +4,16 @@
   <footer class="bg-harbourhaze text-white mt-10 py-10">
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
-        <img
-          src="/images/NobleCCWhite.png"
-          alt="Noble Logo"
-          class="w-60"
-        />
+        <img src="/images/NobleCCWhite.png" alt="Noble Logo" class="w-60" />
         <p>132 Water Street, St. Andrews, NB</p>
         <div class="flex space-x-4 mt-4">
-          <a href="https://www.instagram.com/noblebythesea"
-            ><img
-              src="/images/instagram.svg"
-              alt="Instagram"
-              class="w-10"
+          <a href="https://www.instagram.com/noblebythesea" target="_blank"
+            ><img src="/images/instagram.svg" alt="Instagram" class="w-10"
           /></a>
-          <a href="https://www.facebook.com/share/1C16M5Vych/?mibextid=wwXIfr"
-            ><img
-              src="/images/facebook.svg"
-              alt="Facebook"
-              class="w-10"
+          <a
+            href="https://www.facebook.com/share/1C16M5Vych/?mibextid=wwXIfr"
+            target="_blank"
+            ><img src="/images/facebook.svg" alt="Facebook" class="w-10"
           /></a>
         </div>
       </div>
