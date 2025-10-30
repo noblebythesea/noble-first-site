@@ -2,6 +2,9 @@
 import Banner from "../src/components/Banner.vue";
 import SidebarMenu from "../src/components/SidebarMenu.vue";
 import Footer from "../src/components/Footer.vue";
+import { useWindowSize } from "@vueuse/core";
+
+const { width } = useWindowSize();
 </script>
 
 <template>

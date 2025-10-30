@@ -8,7 +8,7 @@
       <nav>
         <a href="/">
           <img
-            class="absolute w-36 h-auto ml-2"
+            class="absolute w-36 h-auto ml-2 mt-6 md:mt-0"
             src="/images/NobleLogoNobleNavy.png"
         /></a>
         <ul class="hidden md:flex justify-center pt-8 gap-x-4 font-inter">

@@ -8,7 +8,7 @@
       <nav>
         <router-link to="/">
           <img
-            class="absolute w-36 h-auto ml-2"
+            class="absolute w-36 h-auto ml-2 mt-6 md:mt-0"
             src="/images/NobleLogoWhite.png"
           />
         </router-link>

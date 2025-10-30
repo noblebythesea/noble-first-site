@@ -8,7 +8,7 @@ const { width } = useWindowSize();
   <section>
     <div v-if="width < 640" class="pt-4">
       <!-- first mobile image-->
-      <img src="/images/food8.jpg" class="w-full h-128 object-cover" />
+      <img src="/images/food1.jpg" class="w-full h-128 object-cover" />
     </div>
     <div
       class="sm:absolute flex flex-col bg-bordeaux justify-center text-white text-center sm:mt-4 py-8 px-4 font-kingred text-md leading-relaxed col-span-2"

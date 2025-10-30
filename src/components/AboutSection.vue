@@ -1,8 +1,4 @@
-<script setup>
-import { useWindowSize } from "@vueuse/core";
-
-const { width } = useWindowSize();
-</script>
+<script setup></script>
 
 <template>
   <div class="grid grid-cols-2">
@@ -18,7 +14,7 @@ const { width } = useWindowSize();
   </div>
 
   <div
-    class="bg-bordeaux w-full grid sm:grid-cols-2 grid-cols-1 py-3 px-2 gap-2 lg:divide-white"
+    class="bg-bordeaux w-full grid sm:grid-cols-2 grid-cols-1 py-3 px-2 gap-4 lg:divide-white"
   >
     <div class="contact-div px-1.5">
       <p class="font-homemadeapple text-white text-2xl py-1.5">Contact us!</p>
