@@ -2,11 +2,13 @@
 
 <template>
   <section>
-    <div class="herosection h-100  bg-cover bg-center bg-[url(/images/abouthero.jpeg)]">
+    <div
+      class="herosection h-100 bg-cover bg-center bg-[url(/images/abouthero.jpeg)]"
+    >
       <nav>
         <router-link to="/">
           <img
-            class="absolute w-36 h-auto ml-2"
+            class="absolute w-36 h-auto ml-2 mt-6 md:mt-0"
             src="/images/NobleLogoWhite.png"
           />
         </router-link>
@@ -37,21 +39,26 @@
       <h1 class="text-3xl md:text-6xl font-kingred py-2 px-15 text-driftwood">
         About NOBLE
       </h1>
-      <p class="font-inter text-driftwood py-5 px-15">
+      <p class="font-inter text-driftwood py-3 px-15">
         Nestled within the historic Windsor House in the charming seaside town
         of St. Andrews, New Brunswick, NOBLE offers a one-of-a-kind dining
         experience where heritage meets contemporary cuisine. Our ever-evolving,
         locally inspired menu celebrates the best of the region’s seasonal
         ingredients, paired with artisan cocktails and a carefully curated list
-        of regional craft beers. Whether you're joining us for a cozy dine-in
-        experience, enjoying the fresh air in our beautiful courtyard, or
-        picking up a thoughtfully prepared takeout meal, NOBLE brings warmth,
-        flavor, and hospitality to every moment. With a fully stocked bar and a passion
-        for culinary excellence, NOBLE invites you to savor the taste of New
-        Brunswick one plate at a time.
+        of regional craft beers.
       </p>
-      <p class="font-inter text-driftwood py-2 px-15">
-        To make a reservation at Noble, please reach us by email at lysa@noblebythesea.com or come in person to speak with our knowledgeable staff to personalize your dining experience.
+      <p class="font-inter text-driftwood py-3 px-15">
+        Whether you're joining us for a cozy dine-in experience, enjoying the
+        fresh air in our beautiful courtyard, or picking up a thoughtfully
+        prepared takeout meal, NOBLE brings warmth, flavor, and hospitality to
+        every moment. With a fully stocked bar and a passion for culinary
+        excellence, NOBLE invites you to savor the taste of New Brunswick one
+        plate at a time.
+      </p>
+      <p class="font-inter text-driftwood py-4 px-15">
+        To make a reservation at Noble, please reach us by email at
+        lysa@noblebythesea.com or come in person to speak with our knowledgeable
+        staff to personalize your dining experience.
       </p>
     </div>
   </section>

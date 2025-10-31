@@ -1,12 +1,18 @@
-<script setup></script>
+<script setup>
+import { useWindowSize } from "@vueuse/core";
+
+const { width } = useWindowSize();
+</script>
 
 <template>
   <section>
-    <div class="herosection w-full h-100 bg-cover bg-center bg-[url(/images/menuhero.jpg)]">
+    <div
+      class="herosection w-full h-100 bg-cover bg-center bg-[url(/images/food7.jpg)] md:bg-[url(/images/menuhero.png)]"
+    >
       <nav>
         <router-link to="/">
           <img
-            class="absolute w-36 h-auto ml-2"
+            class="absolute w-36 h-auto ml-2 mt-6 md:mt-0"
             src="/images/NobleLogoWhite.png"
           />
         </router-link>
@@ -37,7 +43,7 @@
       <h1 class="text-3xl md:text-6xl font-kingred py-3 px-15 text-driftwood">
         NOBLE Menu
       </h1>
-      <p class="font-inter text-driftwood py-4 px-15">
+      <p class="font-inter text-driftwood py-4 px-5 md:px-15">
         At NOBLE, we believe that the freshest flavors come from our community.
         That’s why we proudly partner with local farmers, growers, and artisans
         to bring you ingredients at their seasonal peak. Our menu is a
